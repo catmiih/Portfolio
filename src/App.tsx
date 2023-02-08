@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { WhoAmI } from './components/whoami';
 import { Tecnologies } from './components/tecnologies';
 import { Projects } from './components/projects';
+import { Social } from './components/social';
 
 function App() {
   return (
-    <div className="App bg-default">
-      {/* <Menu/> */}
+    <div className="App bg-default overflow-hidden">
       <Banner />
+
       <div className='mt-20 lg:p-5'>
         <div className='mt-60 mb-80'>
           <WhoAmI />
@@ -21,6 +22,10 @@ function App() {
 
         <div className='mt-60 mb-80'>
           <Projects />
+        </div>
+
+        <div className='mt-60 mb-80'>
+          <Social/>
         </div>
 
       </div>

@@ -25,10 +25,14 @@ export function Projects() {
                     link="https://github.com/catmiih/search-devs_base"
                     image="https://i.imgur.com/oPuWHvL.png"
                 />
-
-                <h1>Conheça mais projetos em: <a href="https://github.com/catmiih">https://github.com/catmiih</a></h1>
-
             </div>
+
+            <p className="lg:flex text-center w-screen text-white uppercase font-bold justify-center text-xl">
+                Conheça mais projetos em: &nbsp;
+                <a href="https://github.com/catmiih" target="_blank">
+                    https://github.com/catmiih
+                </a>
+            </p>
         </div>
     )
 }
