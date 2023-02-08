@@ -1,11 +1,10 @@
-import background from './../assets/background.gif'
 
 export function Banner() {
 
     return (
         <div className="flex h-screen justify-center items-center text-white bg-backgroundImg bg-fixed bg-no-repeat bg-cover">
             <div className='flex h-screen w-screen justify-center items-center backdrop-blur-sm bg-black/90'>
-                <div>
+                <div className='p-10'>
                     <h1 className='uppercase font-bold text-center'>Boas vindas ao meu portfólio!</h1>
                     <h5 className="text-center font-light">Me chamo Emily e sou desenvolvedora fullstack!</h5>
                     <br />

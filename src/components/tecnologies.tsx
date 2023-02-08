@@ -25,10 +25,10 @@ export function Tecnologies() {
     };
 
     return (
-        <div className="p-40 text-white">
-            <h1 className='font-bold text-center'>Tecnologias nas quais tenho conhecimento</h1>
-            <br />
-            <Carousel responsive={responsive} className="p-5">
+        <div className="text-white">
+            <h1 className='font-bold text-center mb-10'>Tecnologias nas quais tenho conhecimento</h1>
+            <br/>
+            <Carousel responsive={responsive} className="pl-14">
                 <TecnologyCard name="HTML5" image="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" color='#f06529' level={5} />
                 <TecnologyCard name="CSS3" image="https://logospng.org/download/css-3/logo-css-3-2048.png" color='#264de4' level={5} />
                 <TecnologyCard name="JavaScript" image="https://logospng.org/download/javascript/logo-javascript-icon-1024.png" color='#f0db4f' level={5} />
